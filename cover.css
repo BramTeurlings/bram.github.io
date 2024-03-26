@@ -228,3 +228,21 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+a.stylized-link {
+  color: #31c5c5;
+  text-shadow: none !important;
+  text-decoration: underline;
+}
+
+img.profile {
+  width: 10em;
+  height: 10em;
+  margin-bottom: 1.5em;
+  border-radius: 999999px !important;
+  overflow: hidden;
+}
+
+.img-shadow-disabler img {
+  box-shadow: none !important;
+}
